@@ -1,0 +1,39 @@
+<!--
+  SWITCHING .NET VERSIONS: the DLL references below use ..\DLL\$(TargetFramework)\. To test the net10.0 DLLs
+  instead of net8.0, change <TargetFramework> below to net10.0 and rebuild. The demo menu shows the build and runtime.
+  USING NUGET INSTEAD OF DLLS: remove the Reference items, then run: dotnet add package DataFence and use the NuGet folder as a local package source
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<OutputType>Exe</OutputType>
+	<AssemblyName>DataFenceGuardrailsDemo</AssemblyName>
+	<RootNamespace>Demo</RootNamespace>
+	<TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<DebugType>none</DebugType>
+	<DebugSymbols>false</DebugSymbols>
+	<GenerateDocumentationFile>false</GenerateDocumentationFile>
+	<SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Reference Include="DataFenceComponents.Core"><HintPath>..\DLL\$(TargetFramework)\DataFenceComponents.Core.dll</HintPath></Reference>
+	<Reference Include="DataFence.PromptGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFence.PromptGuardrails.dll</HintPath></Reference>
+	<Reference Include="DataFence.SchemaGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFence.SchemaGuardrails.dll</HintPath></Reference>
+	<Reference Include="DataFence.SqlGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFence.SqlGuardrails.dll</HintPath></Reference>
+	<Reference Include="DataFence.ParameterGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFence.ParameterGuardrails.dll</HintPath></Reference>
+	<Reference Include="DataFence.DatabaseGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFence.DatabaseGuardrails.dll</HintPath></Reference>
+	<Reference Include="DataFence.ResultGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFence.ResultGuardrails.dll</HintPath></Reference>
+	<Reference Include="DataFence.AuditLogger"><HintPath>..\DLL\$(TargetFramework)\DataFence.AuditLogger.dll</HintPath></Reference>
+	<Reference Include="DataFenceGuardrails"><HintPath>..\DLL\$(TargetFramework)\DataFenceGuardrails.dll</HintPath></Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+	<PackageReference Include="Microsoft.SqlServer.TransactSql.ScriptDom" Version="161.8901.0" />
+	<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+  </ItemGroup>
+
+</Project>

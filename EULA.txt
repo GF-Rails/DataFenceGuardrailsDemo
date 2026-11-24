@@ -1,0 +1,39 @@
+DATA FENCE COMPONENTS - END USER LICENSE AGREEMENT (DataFence Guardrails and DataFence AgentShield)
+
+1. Grant. Data Fence Components ("Licensor") grants you a non-exclusive, non-transferable license to use the DataFence software, meaning DataFence Guardrails and DataFence AgentShield, each a "Software" and together the "Software" where the context allows, in your applications, subject to this agreement and a valid license key. A valid license key is required in your source code and in the applications you build. Released components use the key to verify the license and do not contact the Licensor or its license provider.
+
+2. Trial. Without a valid license key the Software runs as a 30-day full-function trial. After the trial ends, a valid license key is required. Applications built without a valid license key, or built with a trial version, are for evaluation only and may not be released or used in production. Releases built that way will fail to run.
+
+3. Activations. Unless the purchased variant states otherwise, a license key applies to one Software product only. Each license key permits use on no more than the number of developer computers stated in the purchased variant (1, 5 or 10 seats, larger sizes by agreement). One seat is one developer. Each developer needs their own seat, including developers who share a server or build machine. The key is activated once per developer computer. A Bundle key covers both DataFence Guardrails and DataFence AgentShield. One seat is one developer computer however many of the products run on it; each product is activated separately on that computer. You may deploy or distribute the applications you build with the Software.
+
+4. Restrictions. You may not copy the Software except as needed to build and run your applications, redistribute the Software as a standalone product or library, share or publish license keys, or reverse engineer, decompile or disassemble the Software except where law permits. You may embed the Software in your own applications and distribute those applications without limit. You may not distribute the Software to others as a component, library, SDK, framework or package, wrap or repackage it, or expose its functionality to third-party developers as a substitute for or competitor to the Software, and you may not subclass, modify or remove any protection or licensing mechanism in the Software.
+
+5. Payment. Fees are charged at purchase. Except where required by law, all sales are final and non-refundable.
+
+6. No guarantee of security. The Software reduces risk but does not guarantee protection against all attacks. The lexical filter is pattern-based, and later layers exist to catch reworded attacks. Use a least-privilege database login. You are responsible for testing the Software in your environment.
+
+Authorization decisions made by AgentShield depend on the policies, caller identity and approver rules your application supplies. AgentShield does not guarantee that an external effect runs exactly once, and you remain responsible for the actions your application performs.
+
+7. Warranty disclaimer. The Software is provided "as is" without warranties of any kind, express or implied.
+
+8. Limitation of Liability. To the maximum extent permitted by law, the Licensor is not liable for indirect, incidental, or consequential damages (including data breaches, data loss, or server downtime), or for any damages exceeding the amount you paid for the Software during the preceding twelve (12) months.
+
+9. Termination. This agreement ends automatically if you breach it. On termination you must stop using the Software and delete all copies.
+
+10. Ownership. The Licensor retains all rights in the Software not expressly granted here.
+
+11. License key. The license key is confidential. You may embed your license key in applications you build and distribute. You may not publish it, or use it to build or develop on more computers than your seats allow. You are responsible for all use of your key, including use by your employees, contractors and any third party who obtains it from you. The Licensor does not monitor key use, has no obligation to replace a key or restore activations used through unauthorized use, and may do so at its discretion. The Licensor may disable a key that is used beyond the licensed number of activations, shared outside your organization or unpaid.
+
+12. License validation. While you develop, the Software contacts the Licensor's license provider to activate and periodically validate your key. It sends the license key and a machine identifier. You agree to this communication. If the Software cannot reach the provider, it continues to run for a limited offline period. Released components built with a valid key do not contact the license provider.
+
+13. Term. The license is valid for one year from purchase and renews automatically each year, and the fee is charged to your payment method on file until you cancel. You may cancel at any time; the license then remains valid until the end of the paid term. When the term ends without renewal, the license key stops working for development, and you may no longer build new versions with the Software. Applications you already built with a valid key remain authorized to run. The Licensor provides no support.
+
+14. Third-party software. The Software includes or depends on third-party components, which remain under their own licenses.
+
+15. Governing law. This agreement is governed by the laws of the State of Minnesota, United States, without regard to conflict-of-law rules.
+
+16. Venue. Any legal action or proceeding arising out of this agreement must be brought exclusively in the state or federal courts located in Minneapolis, Minnesota, and you consent to their jurisdiction and venue.
+
+17. Severability and entire agreement. If a provision is unenforceable, the rest remains in effect. This agreement is the entire agreement about the Software and replaces earlier understandings. Changes must be in writing.
+
+Copyright (c) Data Fence Components. All rights reserved.
