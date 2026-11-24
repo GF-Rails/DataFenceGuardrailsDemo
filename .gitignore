@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Force-include release DLLs and NuGet packages
+!DLL/
+!DLL/**
+!NuGet/
+!NuGet/**
+!*.dll
+!*.nupkg
